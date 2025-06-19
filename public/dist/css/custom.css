@@ -1,0 +1,18 @@
+.notify, .my-notify{
+    position: fixed;
+    z-index: 99;
+    width: 95%;
+}
+.notify > .alert,.my-alert{
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0px 0px 10px 0px #9999993b;
+    border: 1px solid #ffffff38;
+}
+.my-notify{
+    display: none;
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+}
